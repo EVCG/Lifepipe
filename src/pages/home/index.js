@@ -1,12 +1,15 @@
 import styles from './home.module.css';
 import { useRouter } from 'next/router';
-
-export default function Login() {
+import NavBar from "@/src/components/navBar/navBar";
+export default function Home() {
   const router = useRouter();
 
   return (
-   <>
-   HOME
-   </>
+    <>
+      <NavBar />
+      <div>
+
+      </div>
+    </>
   );
 }
