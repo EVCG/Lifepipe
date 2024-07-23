@@ -6,15 +6,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 60vw;
     height: 100vh;
-    padding-left: 100px;
+
 }
 
 .TitleScreenRegister {
     color: #000;
     font-size: 96px;
-    font-weight: 700;
     font-family: "Archivo Black";
     margin-bottom: 20px;
 }
@@ -34,6 +34,7 @@
     gap: 40px;
 }
 
+/* Primeiro step */
 .contentinputs {
     display: flex;
     gap: 20px;
@@ -44,9 +45,13 @@
     height: 80px;
     background-color: #E9E9E9;
     font-size: 48px;
+    border: 1px solid #cfcfcf;
+    outline: none;
+
     &::placeholder {
         font-size: 48px;
         font-family: "Archivo Black";
+        color: #ABABAB;
     }
 }
 
@@ -55,10 +60,13 @@
     height: 80px;
     background-color: #E9E9E9;
     font-size: 48px;
-    
+    border: 1px solid #cfcfcf;
+    outline: none;
+
     &::placeholder {
         font-size: 48px;
         font-family: "Archivo Black";
+        color: #ABABAB;
     }
 }
 
@@ -67,10 +75,13 @@
     height: 80px;
     background-color: #E9E9E9;
     font-size: 48px;
+    border: 1px solid #cfcfcf;
+    outline: none;
 
     &::placeholder {
         font-size: 48px;
         font-family: "Archivo Black";
+        color: #ABABAB;
     }
 }
 
@@ -81,12 +92,32 @@
     border-radius: 70px;
     width: 550px;
     height: 115px;
-    font-weight: 700;
+    font-family: "Archivo Black";
     cursor: pointer;
 }
 
+/* Segundo step */
+.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.TextRegister{
+    font-size: 48px;
+    font-family: "Archivo Black";
+    margin-top: 100px;
+    width: 600px;
+}
 
+.IconRegister{
+    width: 143px;
+    height: 143px;
+    color: #008000;
+    border: 2px solid #016b01;
+    border-radius: 50%;
+    margin-top: 20px;
+}
 
 
 
@@ -119,7 +150,6 @@
 .TitleRegister {
     color: #fff;
     font-size: 96px;
-    font-weight: 700;
     font-family: "Archivo Black";
     margin-top: 200px;
     margin-bottom: 80px;
@@ -129,7 +159,7 @@
     color: #fff;
     font-size: 40px;
     margin-bottom: 50px;
-    font-weight: 700;
+    font-family: "Archivo Black";
 }
 
 .DescriptionText {
