@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "@/styles/Login.module.css";
 import { useRouter } from "next/router";
+// importando o icone do biblioteca, quando vc escolher o icone e clicar nele vai dar o import e o arquvi par vc char ele
+import { IoMdLock } from "react-icons/io";
 
 export default function Login() {
   const router = useRouter()
@@ -28,7 +30,10 @@ export default function Login() {
             <input type="email" className={styles.input} placeholder="Email" />
           </div>
           <div className={styles.grupoInput}>
-            <span className={styles.icone}>{/*Colocar cadeado*/}</span>
+            {/* peguei esse icone la biblioteca do react icon no google, la encima tem a importaçao do icone tmb */}
+            <div className={styles.divicone}>
+            <IoMdLock  className={styles.icone}/>
+            </div>
             <input type="password" className={styles.input} placeholder="Senha" />
           </div>
           <button className={styles.botaoEntrar} type="submit">entrar</button>
