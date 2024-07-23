@@ -49,7 +49,7 @@ export default function Cadastro() {
         <h1 className={styles.TitleRegister}>LifePipe</h1>
         <h2 className={styles.SubTitleRegister}>Já possui conta?</h2>
         <p className={styles.DescriptionText}>Não perca tempo, faça seu login e volte a usar nossos serviços.</p>
-        <button className={styles.ButtonLoginRegister} onClick={() => router.push("/login")}>Entrar</button>
+        <button className={styles.ButtonLoginRegister} onClick={() => router.push("/")}>Entrar</button>
       </div>
     </div>
   );
