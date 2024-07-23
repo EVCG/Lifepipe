@@ -95,6 +95,12 @@
     height: 115px;
     font-family: "Archivo Black";
     cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        color: black;
+        font-family: "Archivo Black";
+      }
 }
 
 /* Segundo step */
@@ -157,6 +163,12 @@
     background-color: #000;
     color: #fff;
     font-size: 64px;
-    font-weight: 700;
     cursor: pointer;
+    font-family: "Archivo Black";
+
+    &:hover {
+        background-color: white;
+        color: black;
+        font-family: "Archivo Black";
+      }
 }
