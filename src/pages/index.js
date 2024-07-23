@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "@/styles/Login.module.css";
+import styles from "../styles/Login.module.css";
 import { useRouter } from "next/router";
 // importando o icone do biblioteca, quando vc escolher o icone e clicar nele vai dar o import e o arquvi par vc char ele
 import { IoMdLock } from "react-icons/io";
