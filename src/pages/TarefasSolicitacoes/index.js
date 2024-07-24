@@ -11,7 +11,7 @@ export default function TarefasSolicitacao() {
     <>
     <NavBar/>
 
-    <ladoEsquerdaTS/>
+    <ladoEsquerdoTS/>
     <ladoDireitoTS/>
 
     <Footer/>
