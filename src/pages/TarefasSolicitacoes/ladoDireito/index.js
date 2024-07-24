@@ -1,3 +1,5 @@
+import styles from "./ladoDireitoTS.module.css";
+
 export default function ladoDireitoTS(){
 
 return( 

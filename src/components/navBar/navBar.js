@@ -9,9 +9,9 @@ export default function NavBar() {
 
   return (
     <div className={styles.ContainerNavBar}>
-      <p className={styles.LogoNavBar}>LifePipe</p>
-      <button className={styles.ButtonNavBar}>inicio</button>
-      <p className={styles.tasksNavBar}>Tarefas e solicitações</p>
+      <p className={styles.LogoNavBar} onClick={()=> router.push("/home")}>LifePipe</p>
+      <button className={styles.ButtonNavBar} onClick={()=> router.push("/home")}>inicio</button>
+      <p className={styles.tasksNavBar} onClick={()=> router.push("/TarefasSolicitacoes")}>Tarefas e solicitações</p>
       <div className={styles.searchContainer}>
         <IoSearch className={styles.searchIcon} />
         <input type='text' className={styles.inputNavBar} placeholder="Pesquisar..." />

@@ -1,3 +1,5 @@
+import styles from "./ladoEsquerdoTS.module.css";
+
 export default function ladoEsquerdoTS() {
 
     return(
