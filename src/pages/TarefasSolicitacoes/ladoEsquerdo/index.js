@@ -1,7 +1,4 @@
-import React from 'react';
-
-
-export default function lateralEsquerdaTS() {
+export default function ladoEsquerdoTS() {
 
     return(
         <div className={styles.lateralEsquerda}>
