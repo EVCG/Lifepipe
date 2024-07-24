@@ -1,0 +1,49 @@
+.lateralDireita{
+    width: 100%;
+    padding: 70px 0px 0px 200px ;
+}
+
+.lateralDireita h1{
+    font-family: Archivo;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.lateralDireita p{
+    font-family: Archivo;
+    font-size: 50px;
+    color: #929292;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.titulonav{
+    padding-right: 30px;
+    display: flex;
+}
+
+.titulonav p{
+    padding-right: 30px;
+}
+
+.nav{
+    display: flex;
+    width: 50%;
+    height: 30px;
+    border-bottom: solid 1px #8C8C8C;
+    display: flex;
+}
+
+.pesquisanav{
+    display: flex;
+}
+
+.botaoFiltrar{
+    border: solid 1px;
+}
+
+.vazio{
+    width: 50%;
+    padding: 100px;
+    text-align: center;
+}

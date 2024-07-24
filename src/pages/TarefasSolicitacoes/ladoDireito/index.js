@@ -13,43 +13,53 @@ return(
             {/* Colocar botão de interrogação para tirar duvidas sobre o que aparecerá nessa área */}
 
             <div className={styles.tarefas}>
-                <p>Pendentes</p>
-                <p>Finalizadas</p>
+                <div className={styles.nav}>
+                    <div className={styles.titulonav}>
+                        <p>Pendentes</p>
+                        <p>Finalizadas</p>
+                    </div>
 
-                <div className={styles.botaoFitrar}>
-                    {/* Colocar iicone de botão filtrar */}
-                    <p>Filtrar</p>
+                    <div className={styles.botaoFitrar}>
+                        {/* Colocar iicone de botão filtrar */}
+                        <p>Filtrar</p>
+                    </div>
+
+                    <div className={styles.pesquisar}>
+                        <input type='text'>
+                        {/* Colcoar icone de lupa */}
+                        </input>
+                    </div>
+               
                 </div>
 
-                <div className={styles.pesquisar}>
-                    <input type='text'>
-                    {/* Colcoar icone de lupa */}
-                    </input>
-                </div>
-
-                <p>Você está em dia com as suas tarefas!Qualquer nova tarefa aparecerá aqui.</p>
+                <p className={styles.vazio}>Você está em dia com as suas tarefas!Qualquer nova tarefa aparecerá aqui.</p>
             </div>
 
-            <div className={styles.solicitacao}>
-                <h1>Solicitações recentes</h1>
-                {/* Colocar botão de interrogação para tirar duvidas sobre o que aparecerá nessa área */}
+            <h1>Solicitações recentes</h1>
 
-                <p>Todas</p>
-                
+            <div className={styles.tarefas}>
+                <div className={styles.nav}>
+                    <div className={styles.titulonav}>
+                        <p>Todas</p>
+                    </div>
 
-                <div className={styles.botaoFitrar}>
-                    {/* Colocar iicone de botão filtrar */}
-                    <p>Filtrar</p>
+                    <div className={styles.pesquisanav}>
+                        <div className={styles.botaoFitrar}>
+                            {/* Colocar iicone de botão filtrar */}
+                            <p>Filtrar</p>
+                        </div>
+                        <div className={styles.pesquisar}>
+                            <input type='text'>
+                            {/* Colcoar icone de lupa */}
+                            </input>
+                        </div>
+                    </div>
+               
                 </div>
 
-                <div className={styles.pesquisar}>
-                    <input type='text'>
-                    {/* Colcoar icone de lupa */}
-                    </input>
-                </div>
-
-                <p>Você não possui solicitações! Qualquer nova solicitaçãov aparecerá aqui</p>
+                <p className={styles.vazio}>Você está em dia com as suas Solicitações!Qualquer nova tarefa aparecerá aqui.</p>
             </div>
+
         </div>
     </div>
 );
