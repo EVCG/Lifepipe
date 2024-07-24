@@ -43,14 +43,14 @@
 
 .iputsRegister {
     width: 920px;
-    height: 80px;
+    height: 70px;
     background-color: #E9E9E9;
-    font-size: 48px;
+    font-size: 45px;
     border: 1px solid #cfcfcf;
     outline: none;
 
     &::placeholder {
-        font-size: 48px;
+        font-size: 40px;
         font-family: "Archivo Black";
         color: #ABABAB;
     }
@@ -58,14 +58,14 @@
 
 .iputsRegisterCnpj {
     width: 500px;
-    height: 80px;
+    height: 70px;
     background-color: #E9E9E9;
-    font-size: 48px;
+    font-size: 45px;
     border: 1px solid #cfcfcf;
     outline: none;
 
     &::placeholder {
-        font-size: 48px;
+        font-size: 40px;
         font-family: "Archivo Black";
         color: #ABABAB;
     }
@@ -73,14 +73,14 @@
 
 .iputsRegisterContato {
     width: 400px;
-    height: 80px;
+    height: 70px;
     background-color: #E9E9E9;
-    font-size: 48px;
+    font-size: 45px;
     border: 1px solid #cfcfcf;
     outline: none;
 
     &::placeholder {
-        font-size: 48px;
+        font-size: 40px;
         font-family: "Archivo Black";
         color: #ABABAB;
     }
@@ -89,10 +89,10 @@
 .ButtonRegister {
     background-color: #000;
     color: #fff;
-    font-size: 64px;
+    font-size: 50px;
     border-radius: 70px;
-    width: 550px;
-    height: 115px;
+    width: 350px;
+    height: 80px;
     font-family: "Archivo Black";
     cursor: pointer;
 
@@ -137,7 +137,7 @@
     color: #fff;
     font-size: 96px;
     font-family: "Archivo Black";
-    margin-top: 200px;
+    margin-top: 90px;
     margin-bottom: 80px;
 }
 
@@ -157,8 +157,8 @@
 }
 
 .ButtonLoginRegister {
-    width: 425px;
-    height: 150px;
+    width: 420px;
+    height: 120px;
     border: 3px solid #fff;
     background-color: #000;
     color: #fff;
