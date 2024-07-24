@@ -5,8 +5,8 @@ import { IoPersonSharp } from "react-icons/io5";
 import { IoMdNotifications } from "react-icons/io";
 import { IoIosChatbubbles } from "react-icons/io";
 import { IoSettings } from "react-icons/io5";
-import { PiSquareHalfFill } from "react-icons/pi";
-
+import PerfilEmpresa from "@/src/image/logoEmpresarial.png";
+import Image from "next/image";
 
 export default function SideBar() {
   const router = useRouter();
@@ -14,33 +14,26 @@ export default function SideBar() {
   return (
     <div className={styles.ContainerSideBar}>
 
-      <div className={styles.contentIconSideBar} onClick={() => router.push('quadros')}>
-      <PiSquareHalfFill />
-        <p className={styles.TitleButtons}>Quadros</p>
-      </div>
-      <div className={styles.contentIconSideBar} onClick={() => router.push('templates')}>
-      <PiSquareHalfFill />
-        <p className={styles.TitleButtons}>Templates</p>
+      <div className={styles.contentLogoCompany}>
+      <Image src={PerfilEmpresa} width={75} height={75} alt='iamgem de perfil' className={styles.ImageLogoSideBar}/>
+        <p className={styles.titleCompany}>Ecolife</p>
       </div>
       <div className={styles.LineSideBar}/>
+
       <div className={styles.contentIconSideBar} onClick={() => router.push('membros')}>
-      <IoPersonSharp />
+      <IoPersonSharp size={20}/>
         <p className={styles.TitleButtons}>Membros</p>
       </div>
-      <div className={styles.contentIconSideBar} onClick={() => router.push('favoritos')}>
-      <FaHeart />
-        <p className={styles.TitleButtons}>Favoritos</p>
-      </div>
       <div className={styles.contentIconSideBar} onClick={() => router.push('notificacoes')}>
-      <IoMdNotifications />
+      <IoMdNotifications size={20}/>
         <p className={styles.TitleButtons}>Notificações</p>
       </div>
       <div className={styles.contentIconSideBar} onClick={() => router.push('chat')}>
-      <IoIosChatbubbles />
+      <IoIosChatbubbles size={20}/>
         <p className={styles.TitleButtons}>Chat</p>
       </div>
       <div className={styles.contentIconSideBar} onClick={() => router.push('configuracoes')}>
-      <IoSettings />
+      <IoSettings size={20}/>
         <p className={styles.TitleButtons}>Configurações</p>
       </div>
 
