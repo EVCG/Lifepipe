@@ -3,7 +3,8 @@ import styles from "../styles/Login.module.css";
 import { useRouter } from "next/router";
 // importando o icone do biblioteca, quando vc escolher o icone e clicar nele vai dar o import e o arquvi par vc char ele
 import { IoMdLock } from "react-icons/io";
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import { SlEnvolope } from "react-icons/sl";
+
 
 export default function Login() {
   const router = useRouter()
@@ -32,7 +33,8 @@ export default function Login() {
           {/*Email */}
           <div className={styles.grupoInput}>
             <div className={styles.divicone}>
-              <i className="bi bi-envelope" id="envelope"></i>
+            <SlEnvolope className={styles.icone}/>
+
             </div>
             <input type="email" className={styles.input} placeholder="Email" />
           </div>
