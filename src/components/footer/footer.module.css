@@ -1,0 +1,7 @@
+.ContainerFooter {
+    height: 50px;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

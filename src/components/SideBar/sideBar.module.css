@@ -1,0 +1,17 @@
+.ContainerSideBar{
+    width: 20%;
+}
+
+.TitleButtons{
+    font-family: "Archivo Black";
+    font-size: 15px;
+}
+
+
+
+
+.LineSideBar{
+    width: 100%;
+    height: 1px;
+    background-color: #A6A6A6;
+}
