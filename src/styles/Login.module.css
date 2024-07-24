@@ -10,7 +10,6 @@
   height: 30vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .painelEsquerdo {
@@ -40,18 +39,20 @@
 
 .marca {
   font-size: 96px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  margin-top: -50px;
   font-family: "Archivo Black";
 }
 
 .texto {
   font-size: 40px;
+  margin-bottom: 30px;
   font-family: "Archivo Black";
 }
 
 .subtexto {
   font-size: 36px;
-  margin-bottom: 2rem;
+  margin-bottom: 200px;
   font-family: "Arial";
 }
 
@@ -59,10 +60,9 @@
   background-color: transparent;
   color: white;
   border: 1px solid white;
-  padding: 10px 20px;
+  padding: 20px 10px;
   cursor: pointer;
   font-size: 50px;
-  text-transform: uppercase;
   font-family: "Archivo Black";
 }
 
@@ -73,15 +73,16 @@
 }
 
 .titulo {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 96px;
+  margin-bottom: 50px;
   font-family: "Archivo Black";
 }
 
 .descricao {
-  font-size: 1rem;
+  font-size: 40px;
   margin-bottom: 2rem;
-  font-family: "Archivo Black";
+  font-family: "Archivo";
+  text-align: center;
 }
 
 .formulario {
@@ -90,11 +91,41 @@
   gap: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  height: 20vw;
 }
 
 .grupoInput {
   display: flex;
+  width: 100vw;
+  margin-left: -110px;
 }  
+
+.input{
+    width: 500px;
+    height: 70px;
+    background-color: #E9E9E9;
+    font-size: 48px;
+    border: 1px solid #cfcfcf;
+    outline: none;
+
+    &::placeholder {
+        font-size: 40px;
+        font-family: "Archivo Black";
+        color: #ABABAB;
+        padding-left: 30px;
+    }
+
+}
+
+.divicone i{
+  font-size: 30px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #929090;
+}
 
 .divicone{
   background-color: #D9D9D9;
@@ -102,7 +133,29 @@
 }
 
 .icone{
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 60px;
   color: #929090;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.botaoEntrar {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 50px;
+  margin-right: -30px;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "Archivo Black";
+}
+
+.botaoEntrar:hover {
+  border: solid 1px black;
+  background-color: rgb(252, 252, 252);
+  color: black;
+  font-family: "Archivo Black";
+}
+
