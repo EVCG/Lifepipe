@@ -13,32 +13,33 @@ export default function SideBar() {
 
   return (
     <div className={styles.ContainerSideBar}>
-      <div className={styles.contentIconSideBar}>
+
+      <div className={styles.contentIconSideBar} onClick={() => router.push('quadros')}>
       <PiSquareHalfFill />
         <p className={styles.TitleButtons}>Quadros</p>
       </div>
-      <div className={styles.contentIconSideBar}>
+      <div className={styles.contentIconSideBar} onClick={() => router.push('templates')}>
       <PiSquareHalfFill />
         <p className={styles.TitleButtons}>Templates</p>
       </div>
       <div className={styles.LineSideBar}/>
-      <div className={styles.contentIconSideBar}>
+      <div className={styles.contentIconSideBar} onClick={() => router.push('membros')}>
       <IoPersonSharp />
         <p className={styles.TitleButtons}>Membros</p>
       </div>
-      <div className={styles.contentIconSideBar}>
+      <div className={styles.contentIconSideBar} onClick={() => router.push('favoritos')}>
       <FaHeart />
         <p className={styles.TitleButtons}>Favoritos</p>
       </div>
-      <div className={styles.contentIconSideBar}>
+      <div className={styles.contentIconSideBar} onClick={() => router.push('notificacoes')}>
       <IoMdNotifications />
         <p className={styles.TitleButtons}>Notificações</p>
       </div>
-      <div className={styles.contentIconSideBar}>
+      <div className={styles.contentIconSideBar} onClick={() => router.push('chat')}>
       <IoIosChatbubbles />
         <p className={styles.TitleButtons}>Chat</p>
       </div>
-      <div className={styles.contentIconSideBar}>
+      <div className={styles.contentIconSideBar} onClick={() => router.push('configuracoes')}>
       <IoSettings />
         <p className={styles.TitleButtons}>Configurações</p>
       </div>
