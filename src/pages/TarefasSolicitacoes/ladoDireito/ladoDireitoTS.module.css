@@ -31,15 +31,44 @@
     width: 50%;
     height: 30px;
     border-bottom: solid 1px #8C8C8C;
+    justify-content: space-between;
+}
+
+.componentes{
     display: flex;
+    flex-direction: row;
 }
 
 .pesquisanav{
     display: flex;
 }
 
-.botaoFiltrar{
-    border: solid 1px;
+.botaoFitrar{
+    display: flex;
+    flex-direction: row;
+    margin-left:-250px;
+    position: absolute;
+}
+
+.pesquisar input{
+    width: 200px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: -160px;
+    margin-right: 500px;
+    border-radius: 30px;
+    border:solid 1px;
+    position: absolute;
+}
+
+.lupa{
+    font-size: 25px;
+    position: relative;
+}
+
+.filtrar{
+    font-size: 25px;
+    
 }
 
 .vazio{

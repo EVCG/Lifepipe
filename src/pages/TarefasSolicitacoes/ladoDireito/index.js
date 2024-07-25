@@ -1,4 +1,6 @@
 import styles from "./ladoDireitoTS.module.css";
+import { CiFilter } from "react-icons/ci";
+import { BiSearchAlt2 } from "react-icons/bi";
 
 export default function ladoDireitoTS(){
 
@@ -19,15 +21,16 @@ return(
                         <p>Finalizadas</p>
                     </div>
 
-                    <div className={styles.botaoFitrar}>
-                        {/* Colocar iicone de botão filtrar */}
-                        <p>Filtrar</p>
-                    </div>
-
-                    <div className={styles.pesquisar}>
-                        <input type='text'>
-                        {/* Colcoar icone de lupa */}
-                        </input>
+                    <div className={styles.componentes}>
+                        
+                        <div className={styles.botaoFitrar}>
+                            <CiFilter className={styles.filtrar}/>
+                            <p>Filtrar</p>
+                        </div>
+                        <div className={styles.pesquisar}>
+                            <input type='text'></input>
+                            <BiSearchAlt2  className={styles.lupa}/>
+                        </div>
                     </div>
                
                 </div>
@@ -44,15 +47,17 @@ return(
                     </div>
 
                     <div className={styles.pesquisanav}>
+                        
                         <div className={styles.botaoFitrar}>
-                            {/* Colocar iicone de botão filtrar */}
+                            <CiFilter className={styles.filtrar}/>
                             <p>Filtrar</p>
                         </div>
+
                         <div className={styles.pesquisar}>
-                            <input type='text'>
-                            {/* Colcoar icone de lupa */}
-                            </input>
+                            <input type='text'></input>
+                            <BiSearchAlt2  className={styles.lupa}/>
                         </div>
+
                     </div>
                
                 </div>
