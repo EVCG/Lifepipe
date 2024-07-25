@@ -26,6 +26,14 @@
     padding-right: 30px;
 }
 
+.titulonav p:hover{
+    padding-right: 30px;
+    text-decoration: underline;
+    text-underline-offset: 13px;
+    text-decoration-color: #000000;
+    text-decoration-thickness: 3px;
+}
+
 .nav{
     display: flex;
     width: 50%;
