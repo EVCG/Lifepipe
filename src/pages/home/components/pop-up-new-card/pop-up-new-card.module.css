@@ -1,0 +1,79 @@
+.popUpContainerNewCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: rgba(80, 78, 78, 0.712);
+    height: 100vh;
+    width: 100vw;
+    bottom: 0%;
+    z-index: 10;
+}
+
+.popUpoContantNewCard{
+    width: 700px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.ExitPopUpNewCard{
+    font-size: 24px;
+    text-align: end;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.ContainerFormPopUpNewCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TitlePopUpNewCard{
+    font-family: "archivo";
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ContainerInputsPopUpNewCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelPopUpNewCard{
+    font-size: 22px;
+    font-family: "archivo";
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+.InputPopUpNewCard {
+    width: 500px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #707070;
+    border-radius: 5px; 
+    margin-bottom: 30px;
+ }
+ 
+
+.ButtonPopUpNewCard{
+    background-color: #16b411;
+    color: #fff;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    border: none;
+    font-family: "archivo black";
+    font-size: 20px;
+    margin-top: 30px;
+    
+    &:hover {
+        background-color: #0ad103;
+    }
+}

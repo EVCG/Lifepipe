@@ -16,7 +16,7 @@ export default function SideBar() {
 
       <div className={styles.contentLogoCompany}>
       <Image src={PerfilEmpresa} width={75} height={75} alt='iamgem de perfil' className={styles.ImageLogoSideBar}/>
-        <p className={styles.titleCompany}>Ecolife</p>
+        <p className={styles.titleCompany}>Enterprise </p>
       </div>
       <div className={styles.LineSideBar}/>
 
