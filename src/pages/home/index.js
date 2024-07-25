@@ -14,7 +14,6 @@ export default function Home() {
   const [PopUp, setPopUp] = useState(false);
   const [PopUpCard, setPopUpCard] = useState(false);
   
-
   return (
     <>
       <NavBar />
