@@ -1,6 +1,5 @@
 import styles from './sideBar.module.css';
 import { useRouter } from 'next/router';
-import { FaHeart } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
 import { IoMdNotifications } from "react-icons/io";
 import { IoIosChatbubbles } from "react-icons/io";
@@ -9,16 +8,18 @@ import PerfilEmpresa from "@/src/image/logoEmpresarial.png";
 import Image from "next/image";
 import { useState } from 'react';
 import PopUpMember from '../PopUps/pop-up-member/popUpMember';
+import PopUpNotification from '../PopUps/pop-up-notification/popUpNotification';
 
 export default function SideBar() {
   const router = useRouter();
   const [PopMember , setPopMember] =  useState(false);
+  const [NotificationOpen, setNotificationOpen] = useState(false);
 
   return (
     <div className={styles.ContainerSideBar}>
       {PopMember ? <PopUpMember setPopMember={setPopMember}/> : <></>}
       <div className={styles.contentLogoCompany}>
-      <Image src={PerfilEmpresa} width={75} height={75} alt='iamgem de perfil' className={styles.ImageLogoSideBar}/>
+      <Image src={PerfilEmpresa} width={75} height={75} alt='Imagem de perfil' className={styles.ImageLogoSideBar}/>
         <p className={styles.titleCompany}>Enterprise </p>
       </div>
       <div className={styles.LineSideBar}/>
@@ -35,10 +36,11 @@ export default function SideBar() {
       <IoSettings size={20}/>
         <p className={styles.TitleButtons}>Configurações</p>
       </div>
-      <div className={styles.contentIconSideBar} onClick={() => router.push('notificacoes')}>
+      <div className={styles.contentIconSideBar} onClick={()=>setNotificationOpen(prev => !prev)}>
       <IoMdNotifications size={20}/>
         <p className={styles.TitleButtons}>Notificações</p>
       </div>
+      {NotificationOpen && <PopUpNotification/>}
 
     </div>
   );

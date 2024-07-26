@@ -4,6 +4,7 @@ import Users from './components/users/users';
 import styles from './popUpMember.module.css';
 import Lucas from "@/src/image/lucas.png";
 import Elisson from "@/src/image/Elisson.png";
+import { IoSearch } from "react-icons/io5";
 
 export default function PopUpMember({ setPopMember }) {
     const [users, setUsers] = useState([
@@ -30,6 +31,13 @@ export default function PopUpMember({ setPopMember }) {
             <div className={styles.ContentMember}>
                 <div className={styles.ExitMember} onClick={() => setPopMember(false)}>x</div>
                 <div className={styles.ContainerSearchMember}>
+                    <div>
+                        <h1 className={styles.TitleMember}> 2 Membro</h1>
+                        <div className={styles.inputNavBarContainer}>
+                            <IoSearch className={styles.searchIconMember} />
+                            <input type='text' className={styles.inputNavBarMember} placeholder="Pesquisar por nome" />
+                        </div>
+                    </div>
                 </div>
                 <div className={styles.ContentData}>
                     <div className={styles.Data}>

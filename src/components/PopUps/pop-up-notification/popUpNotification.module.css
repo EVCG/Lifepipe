@@ -1,0 +1,23 @@
+.containerNotification{
+    width: 80%;
+    height: 350px;
+    border: 1px solid #9B9B9B;
+    margin-left: 40px;
+    border-radius: 10px;
+    overflow-y: auto; 
+}
+
+.contentNotification{
+    padding: 15px;
+}
+
+.Notification{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+    font-size: 15px;
+    font-family: "Archivo";
+    font-weight: 500;
+}
