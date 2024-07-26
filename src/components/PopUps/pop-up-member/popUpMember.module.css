@@ -42,6 +42,8 @@
 .inputNavBarContainer {
     position: relative;
     width: 1350px;
+    display: flex;
+    gap: 15px;
 }
 
 .inputNavBarMember {
@@ -55,6 +57,19 @@
     padding-right: 50px; 
 }
 
+.ButtonAddMember{
+    background-color: #32CCFF;
+    width: 50px;
+    height: 45px;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .ContentUsersPopUp {
     max-height: 360px; 
     overflow-y: auto; 
@@ -63,7 +78,7 @@
 }
 .searchIconMember {
     position: absolute;
-    right: 15px; /* Espaço consistente do ícone para a borda direita */
+    right: 80px; /* Espaço consistente do ícone para a borda direita */
     top: 50%;
     transform: translateY(-50%); /* Centraliza verticalmente o ícone */
     color: #000;
