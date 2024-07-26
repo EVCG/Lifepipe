@@ -54,6 +54,12 @@
     padding-right: 50px; 
 }
 
+.ContentUsersPopUp {
+    max-height: 495px; 
+    overflow-y: auto; 
+    overflow-x:hidden;
+    width: 1368px;
+}
 .searchIconMember {
     position: absolute;
     right: 15px; /* Espaço consistente do ícone para a borda direita */

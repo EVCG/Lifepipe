@@ -23,20 +23,20 @@ export default function Home() {
         <SideBar />
         <div className={styles.DataHome}>
           <Usuario />
-          <div onClick={()=>setPopUpCard(true)}>
+          <div>
             <p className={styles.TitleCanban}>Cards</p>
             <div className={styles.LineHome} />
-            <div className={styles.ButtonHome}>
+            <div className={styles.ButtonHome} onClick={()=>setPopUpCard(true)}>
               <div className={styles.PlusHome}>+</div>
               <p className={styles.nameCardHome}>Novo Card</p>
             </div>
 
           </div>
 
-          <div onClick={()=>setPopUp(true)}>
+          <div>
             <p className={styles.TitleCanban}>Suporte</p>
             <div className={styles.LineHome} />
-            <div className={styles.ButtonHome}>
+            <div className={styles.ButtonHome} onClick={()=>setPopUp(true)}>
               <div className={styles.PlusHome}><MdSupportAgent size={20} /></div>
               <p className={styles.nameCardHome}>Equipe de suporte</p>
             </div>
