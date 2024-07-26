@@ -1,0 +1,87 @@
+.ContainerSettings {
+    display: flex;
+}
+
+.contentProfile {
+    width: 30%;
+    height: 800px;
+    border-right: 2px solid #A5A5A5;
+    
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.TitleSettings{
+    font-size: 24px;
+    font-family: "Archivo Black";
+}
+.subTitlesettings{
+    font-size: 20px;
+    font-family: "inter"; 
+    margin-bottom: 10px;
+}
+
+.DivSettingsPerfil{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    border-bottom: 2px solid #A5A5A5;
+}
+
+.Imagesettings{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.ImagePerfilSettings{
+    height: 100px;
+}
+
+.SettingsProfile {
+    width: 70%;
+}
+
+.FormsSettings {
+
+}
+.DivInputsSettings{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px 20px 50px;
+}
+
+.InputSetting{
+    width: 1000px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+
+.ButtonSavePassword{
+    background-color: #005FFF;
+    font-size: 20px;
+    font-family: "inter";
+    height: 30px;
+    width: 220px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ButtonSave{
+    background-color: #005FFF;
+    font-size: 24px;
+    font-family: "inter";
+    height: 45px;
+    width: 260px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
