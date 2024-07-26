@@ -7,3 +7,43 @@
     flex-direction: column;
     width: 100%;
 }
+
+.LineHome{
+    width: 70%;
+    height: 1px;
+    background-color: #A5A5A5;
+}
+
+.ButtonHome{
+    background-color: transparent;
+    border: 2px solid #000000;
+    width: 170px;
+    height: 210px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.TitleCanban{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: "archivo black";
+    font-size: 24px;
+}
+
+.PlusHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 38px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin: 10px 0px 110px 10px;
+    font-size: 22px;
+}
+
+.nameCardHome{
+    font-size: 15px;
+    font-family: "archivo black";
+    margin-left: 10px;
+}

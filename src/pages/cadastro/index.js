@@ -26,9 +26,12 @@ export default function Cadastro() {
                 <input type="text" className={styles.iputsRegisterContato} placeholder="Contato" mask={['(', /[0-9]/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]} />
               </div>
               <div className={styles.contentinputs}>
-                <input type="text" className={styles.iputsRegister} placeholder="Endereço Completo" />
-              </div>
+                <input type="text" className={styles.iputsRegister} placeholder="E-mail" />
 
+              </div>
+              <div className={styles.contentinputs}>
+              <input type="text" className={styles.iputsRegister} placeholder="Nome Completo"/>
+              </div>
               <button className={styles.ButtonRegister} onClick={() => setStep(2)}>Cadastrar</button>
             </>
           )}

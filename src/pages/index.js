@@ -15,14 +15,14 @@ export default function Login() {
           <h1 className={styles.marca}>LifePipe</h1>
           <p className={styles.texto}>Ainda não possui conta?</p>
           <p className={styles.subtexto}>Faça seu cadastro agora</p>
-          
+
           <button className={styles.botaoCadastrar} onClick={() => router.push('/cadastro')}>Cadastrar</button>
         </div>
       </div>
 
       {/* Painel do lado Direito */}
       <div className={styles.painelDireito}>
-        
+
         <div classname={styles.tituloPrincipal}>
           <h1 className={styles.titulo}>Faça seu login</h1>
           <p className={styles.descricao}>Preencha seus dados</p>
@@ -32,7 +32,7 @@ export default function Login() {
           {/*Email */}
           <div className={styles.grupoInput}>
             <div className={styles.divicone}>
-            <SlEnvolope className={styles.icone}/>
+              <SlEnvolope className={styles.icone} />
 
             </div>
             <input type="email" className={styles.input} placeholder="Email" />
@@ -41,12 +41,18 @@ export default function Login() {
           {/*senha */}
           <div className={styles.grupoInput}>
             <div className={styles.divicone}>
-            <IoMdLock  className={styles.icone}/>
+              <IoMdLock className={styles.icone} />
             </div>
             <input type="password" className={styles.input} placeholder="Senha" />
           </div>
 
-          <button className={styles.botaoEntrar} type="submit">Entrar</button>
+          <button
+            className={styles.botaoEntrar}
+            type="submit"
+            onClick={(e) => {e.preventDefault();router.push('/home');}}
+          >
+            Entrar
+          </button>
         </form>
       </div>
 
