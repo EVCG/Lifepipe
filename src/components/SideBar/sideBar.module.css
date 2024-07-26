@@ -4,19 +4,40 @@
 
 .TitleButtons{
     font-family: "Archivo Black";
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .contentIconSideBar{
     display: flex;
-    margin: 20px 0px 20px 40px;
+    margin: 30px 0px 30px 40px;
     gap: 5px;
     cursor: pointer;
     font-size: 15px;
+    align-items: center;
 }
+
+.contentLogoCompany{
+    display: flex;
+    margin: 38px 0px 35px 40px;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    align-items: center;
+}
+
 .LineSideBar{
-    width: 97.6%;
+    width: 90%;
     height: 1px;
     background-color: #A6A6A6;
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+.ImageLogoSideBar{
+    border-radius: 50%;
+}
+
+.titleCompany{
+    font-size: 26px;
+    font-family: "Archivo";
+    font-weight: 600;
 }

@@ -31,7 +31,7 @@
 .Contentform {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -44,10 +44,11 @@
 .iputsRegister {
     width: 920px;
     height: 70px;
-    background-color: #E9E9E9;
+    background-color: #fff;
     font-size: 45px;
-    border: 1px solid #cfcfcf;
+    border: 1px solid #000;
     outline: none;
+    border-radius: 10px;
 
     &::placeholder {
         font-size: 40px;
@@ -59,10 +60,11 @@
 .iputsRegisterCnpj {
     width: 500px;
     height: 70px;
-    background-color: #E9E9E9;
+    background-color: #fff;
     font-size: 45px;
-    border: 1px solid #cfcfcf;
+    border: 1px solid #000;
     outline: none;
+    border-radius: 10px;
 
     &::placeholder {
         font-size: 40px;
@@ -74,10 +76,11 @@
 .iputsRegisterContato {
     width: 400px;
     height: 70px;
-    background-color: #E9E9E9;
+    background-color: #fff;
     font-size: 45px;
-    border: 1px solid #cfcfcf;
+    border: 1px solid #000;
     outline: none;
+    border-radius: 10px;
 
     &::placeholder {
         font-size: 40px;
@@ -87,19 +90,21 @@
 }
 
 .ButtonRegister {
-    background-color: #000;
+    background-color: #32CCFF;
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     border-radius: 70px;
-    width: 350px;
-    height: 80px;
+    width: 320px;
+    height: 70px;
     font-family: "Archivo Black";
     cursor: pointer;
+    border: none;
 
     &:hover {
         background-color: white;
         color: black;
         font-family: "Archivo Black";
+        border: 1px solid #32CCFF;
       }
 }
 
@@ -127,7 +132,7 @@
 }
 /* lado direito da tela */
 .ContentDescription {
-    background-color: #000;
+    background-color: #32CCFF;
     width: 40vw;
     height: 100vh;
     padding-left: 100px;
@@ -160,14 +165,15 @@
     width: 420px;
     height: 120px;
     border: 3px solid #fff;
-    background-color: #000;
+    background-color: transparent;
     color: #fff;
     font-size: 64px;
     cursor: pointer;
     font-family: "Archivo Black";
+    border-radius: 10px;
 
     &:hover {
-        background-color: white;
+        background-color: #fff;
         color: black;
         font-family: "Archivo Black";
       }

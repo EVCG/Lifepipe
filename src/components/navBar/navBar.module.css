@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: center;
     height: 130px;
-    background-color: #000;
+    background-color: #32CCFF;
     color: #fff;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .ButtonNavBar{
-    background-color: #000;
+    background-color: transparent;
     font-size: 24px;
     font-family: "Archivo Black";
     color: #fff;
@@ -61,7 +61,7 @@
 .inputNavBar{
     width: 385px;
     height: 40px;
-    background-color: #D8D7D7;
+    background-color: #fff;
     border-radius: 30px;
     border: none;
     padding-left: 10px;
