@@ -24,14 +24,20 @@
     cursor: pointer;
     width: 145px;
     height: 50px;
+}
 
-    &:active {
-        background-color: #fff;
-        border-radius: 30px;
-        color: #000;
-        font-family: "Archivo Black";
-        border: 1px solid #fff;
-      }
+.Click{
+    background-color: #fff;
+    border-radius: 30px;
+    color: #000;
+    font-family: "Archivo Black";
+    border: 1px solid #fff;
+    font-size: 24px;
+    font-family: "Archivo Black";
+    border: none;
+    cursor: pointer;
+    width: 145px;
+    height: 50px;
 }
 
 .tasksNavBar{
@@ -43,15 +49,8 @@
     height: 50px;
     justify-content: center;
     align-items: center;
-
-    &:active {
-        background-color: #fff;
-        border-radius: 30px;
-        color: #000;
-        font-family: "Archivo Black";
-        border: 1px solid #fff;
-      }
 }
+
 .searchContainer {
     display: flex;
     align-items: center;
