@@ -119,3 +119,11 @@
 .coluna-ganhos{
     background-color: rgb(106, 127, 11);
 }
+
+/* Cards */
+
+.popup{
+    width: 630px;
+    height: 700px;
+    border-radius: 20px;
+}

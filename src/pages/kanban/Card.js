@@ -23,4 +23,5 @@ function CardsConteudo(props){
             <p>{props.dataPregao}</p>
         </li>
     )
+    
 }
