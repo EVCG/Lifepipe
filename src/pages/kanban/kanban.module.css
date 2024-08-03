@@ -5,6 +5,7 @@
 .navKanban{
     display: flex;
     border-bottom: solid 1px;
+    margin-top: 125px;
 }
 
 .navKanban a{
@@ -21,12 +22,12 @@
 }
 
 .colunacards{
-    margin: 90px 20px 20px 10px;
+    margin: 10px 20px 20px 10px;
     display: flex;
     height: 100%;
     overflow-x: auto;
     white-space: nowrap;
-
+    
 }
 
 /* Coluna cards */
@@ -70,7 +71,7 @@
     background-color: rgb(217, 217, 217);
     border: solid 1px rgb(177, 177, 177);
     width: 350px;
-    height: 29vw;
+    height: 27vw;
     margin: 10px 10px 3px 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
