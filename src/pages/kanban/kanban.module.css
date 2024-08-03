@@ -1,0 +1,120 @@
+.conteudo{
+    height: 80%;
+}
+
+.navKanban{
+    display: flex;
+    border-bottom: solid 1px;
+}
+
+.navKanban a{
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Archivo;
+}
+
+.navKanban a:hover{
+    text-decoration: underline 2px;
+    text-underline-offset: 17px;
+}
+
+.colunacards{
+    margin: 90px 20px 20px 10px;
+    display: flex;
+    height: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+
+/* Coluna cards */
+.coluna{
+    width: 350px;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(76, 46, 173);
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coluna h1{
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    margin-top: 10px;
+    padding: 10px 10px 30px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: solid 1px grey;
+    font-family: Archivo;
+    font-size: 17px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.coluna p{
+    position: relative;
+    font-size: 30px;
+    top: -10px;
+    cursor: pointer;
+}
+
+.espacoCards{
+    background-color: rgb(217, 217, 217);
+    border: solid 1px rgb(177, 177, 177);
+    width: 350px;
+    height: 29vw;
+    margin: 10px 10px 3px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.popupContent {
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.coluna-viabilidade{
+    background-color: rgb(76, 46, 173);
+}
+.coluna-custos{
+    background-color: rgb(106, 127, 11);
+}
+.coluna-pregão{
+    background-color: rgb(0, 138, 11);
+}
+.coluna-encerrados{
+    background-color: rgb(225, 25, 112);
+}
+.coluna-ganhos{
+    background-color: rgb(106, 127, 11);
+}
