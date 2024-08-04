@@ -91,10 +91,6 @@
     z-index: 1000;
 }
 
-.popupContent {
-    position: relative;
-}
-
 .close {
     position: absolute;
     top: 10px;
@@ -126,4 +122,90 @@
     width: 630px;
     height: 700px;
     border-radius: 20px;
+    display: inline-block;
+}
+
+/* Inputs cards */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 202%;
+    height: 202%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupContent {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    height: 40%;
+    max-width: 600px;
+    max-height: 90%;
+    overflow-y: auto;
+    right: -800px;
+    bottom: -400px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input h1 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.input input[type='text'],
+.input input[type='date']{
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: archivo;
+}
+
+.input input[type='file'] {
+    width: 100%;
+    padding: 10px 10px 10px 0px;
+    margin-top: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.input h1{
+    font-size: 20px;
+    font-family: archivo;
+}
+
+.input label {
+    margin-right: 10px;
+}
+
+.criarCard button{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #0952CC;
+    border: solid 1px #0952CC;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 }

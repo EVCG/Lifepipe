@@ -108,6 +108,17 @@ function Popup({ onClose }) {
                     </label>
             
                 </div>
+                <div className={styles.input}>
+                    <h1>Anexo do Edital</h1>
+                    <input type='file'></input>
+                </div>
+                <div className={styles.input}>
+                    <h1 className={styles.observacao}>Observação:</h1>
+                    <input type='text' placeholder='Digite aqui...' />
+                </div>
+                <div className={styles.criarCard}>
+                    <button>Criar novo card</button>
+                </div>
             </div>
         </div>
     );
