@@ -2,15 +2,34 @@ import { useState } from 'react';
 import styles from './kanban.module.css'
 
 export default function ColunaCard() {
+    const [cards, setCards] = useState([]);
+
+    const addCard = (cardData) => {
+        console.log("Adding card with data:", cardData);
+        setCards(prevCards => [...prevCards, cardData]);
+    };
     return (
-        <div className={styles.colunacards}>
-            <Coluna titulo='Análise de viabilidade' classe='coluna-viabilidade' />
-            <Coluna titulo='Elaboração de Custos' classe='coluna-custos' />
-            <Coluna titulo='Aguardando o Pregão' classe='coluna-pregão' />
-            <Coluna titulo='Pregões Encerrados' classe='coluna-encerrados' />
-            <Coluna titulo='Pregões ganhos' classe='coluna-ganhos' />
+        <div>
+            <div className={styles.colunacards}>
+                <Coluna titulo='Análise de viabilidade' classe='coluna-viabilidade' />
+                <Coluna titulo='Elaboração de Custos' classe='coluna-custos' />
+                <Coluna titulo='Aguardando o Pregão' classe='coluna-pregão' />
+                <Coluna titulo='Pregões Encerrados' classe='coluna-encerrados' />
+                <Coluna titulo='Pregões ganhos' classe='coluna-ganhos' />
+            </div>
+            {cards.map((card, index) => (
+                <div key={index} className={styles.espacoCards}>
+                    <p>Nome do Órgão: {card.nomeOrgao}</p>
+                    <p>Data Abertura RO: {card.dataAberturaRO}</p>
+                    <p>Informações Relevantes: {card.informacoesRelevantes}</p>
+                    <p>Data do Pregão: {card.dataPregao}</p>
+                    <p>Analista Responsável: {card.analistaResponsavel}</p>
+                </div>
+                ))}
         </div>
-    )
+            
+            
+        )
 }
 
 function Coluna(props) {

@@ -5,12 +5,11 @@
 .navKanban{
     display: flex;
     border-bottom: solid 1px;
-    margin-top: 125px;
 }
 
 .navKanban a{
     padding: 15px;
-    color: rgb(255, 255, 255);
+    color: black;
     font-weight: bold;
     font-size: 20px;
     font-family: Archivo;
