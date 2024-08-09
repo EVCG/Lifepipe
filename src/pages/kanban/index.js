@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '@/src/components/navBar/navBar';
 import Footer from '@/src/components/footer/footer';
 import styles from './kanban.module.css';
-import ColunaCard from './ColunaCard';
+import ColunaCard from './componentskanban/colunas/ColunaCard';
 
 export default function kanban() {
     
