@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './kanban.module.css'
+import Card from "./card/Card";
 
 export default function ColunaCard() {
     const [cards, setCards] = useState([]);
@@ -17,15 +18,6 @@ export default function ColunaCard() {
                 <Coluna titulo='Pregões Encerrados' classe='coluna-encerrados' />
                 <Coluna titulo='Pregões ganhos' classe='coluna-ganhos' />
             </div>
-            {cards.map((card, index) => (
-                <div key={index} className={styles.espacoCards}>
-                    <p>Nome do Órgão: {card.nomeOrgao}</p>
-                    <p>Data Abertura RO: {card.dataAberturaRO}</p>
-                    <p>Informações Relevantes: {card.informacoesRelevantes}</p>
-                    <p>Data do Pregão: {card.dataPregao}</p>
-                    <p>Analista Responsável: {card.analistaResponsavel}</p>
-                </div>
-                ))}
         </div>
             
             
@@ -44,7 +36,9 @@ function Coluna(props) {
             <div className={`${styles.coluna} ${styles[props.classe]}`}>
                 <h1>{props.titulo} <p onClick={handlePopup}>+</p></h1>
             </div>
-            <div className={styles.espacoCards}></div>
+            <div className={styles.espacoCards}>
+            <Card/>
+            </div>
             {showPopup && (
                 <Popup onClose={handlePopup} />
             )}

@@ -3,8 +3,6 @@ import NavBar from '@/src/components/navBar/navBar';
 import Footer from '@/src/components/footer/footer';
 import styles from './kanban.module.css';
 import ColunaCard from './ColunaCard';
-// import Cards from './Card';
-
 
 export default function kanban() {
     
@@ -18,8 +16,6 @@ export default function kanban() {
             </div>
             
             <ColunaCard/>
-            
-            {/* <Cards/> */}
             <Footer />
         </>
     )
