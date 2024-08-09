@@ -13,6 +13,7 @@ export default function ColunaCard() {
                 <Coluna titulo='Aguardando o Pregão' classe='coluna-pregão' />
                 <Coluna titulo='Pregões Encerrados' classe='coluna-encerrados' />
                 <Coluna titulo='Pregões ganhos' classe='coluna-ganhos' />
+                <Coluna titulo='Jurídico' classe='coluna-viabilidade' />
             </div>
         </div>
     )
