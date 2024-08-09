@@ -8,6 +8,7 @@ export default function ColunaCard() {
     return (
         <div>
             <div className={styles.colunacards}>
+                {/* OBS: Elisson  faz um Mep para poder mostrar as colunas para nao ter que ficar add na mao um por uma */}
                 <Coluna titulo='Análise de viabilidade' classe='coluna-viabilidade' />
                 <Coluna titulo='Elaboração de Custos' classe='coluna-custos' />
                 <Coluna titulo='Aguardando o Pregão' classe='coluna-pregão' />
