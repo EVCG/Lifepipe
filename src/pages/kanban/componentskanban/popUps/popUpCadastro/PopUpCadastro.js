@@ -89,6 +89,10 @@ export default function PopUpCadastro({onClose}) {
                         <button>Criar novo card</button>
                     </div>
                 </div>
+
+                <div className={styles.ContentAttribute}>
+                    <button>teste</button>
+                </div>
             </div>
         </>
     );

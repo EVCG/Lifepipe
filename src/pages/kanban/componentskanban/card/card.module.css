@@ -10,4 +10,23 @@
     border-radius: 10px;
     margin-top: 5px;
     cursor: pointer;
+    padding: 10px;
+}
+
+.DivTitle{
+height: 50px;
+}
+
+.TitleCard {
+    font-size: 20px;
+    font-weight: 600;
+    word-break: break-word; 
+    white-space: normal;
+}
+
+.SubTitleCard{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
