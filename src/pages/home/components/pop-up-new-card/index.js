@@ -20,7 +20,7 @@ export default function PopUpNewCard({ setPopUpCard }) {
             <input type='text' className={styles.InputPopUpNewCard} />
           </div>
 
-          <button className={styles.ButtonPopUpNewCard} type='submit' onClick={(e) => {e.preventDefault(); }}>Salvar</button>
+          <button className={styles.ButtonPopUpNewCard} type='submit' onClick={(e) => {e.preventDefault();;router.push('/kanban'); }}>Salvar</button>
         </form>
 
       </div>
